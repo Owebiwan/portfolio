@@ -27,7 +27,7 @@ class Main extends React.Component {
               <div className="service">
                 <h3>Web Development</h3>
                 <p>
-                  I specialize in front-end wed development, but I am currently
+                  I specialize in front-end web development, but I am currently
                   practicing back-end on the MERN stack. Using HTML5, CSS3,
                   JavaScript, and React. I have developed sites from UI/UX
                   templates, and also made custom design templates for clients.

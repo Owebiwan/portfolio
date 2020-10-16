@@ -73,7 +73,7 @@ section {
   color: #255784;
   background: #2196f3;
   transform: scale(1.1);
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  box-shadow: 0 0 10px #2196f3;
 }
 /*
 .btn span {
@@ -319,7 +319,7 @@ li:last-child {
 .service {
   padding: 20px;
   max-width: 500px;
-  background: #303030d2;
+  background: var(--clr-dark);
   border-radius: 0.1em;
   margin: 10px auto;
 }
