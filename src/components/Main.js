@@ -4,7 +4,9 @@ import profile from "../profilepic.png";
 import markup from "../markup.png";
 import petsclique from "../petsclique.png";
 import legate from "../legate.png";
-
+import calc from "../calc.png";
+import pomodoro from "../pomodoro.png";
+import beatbox from "../beatbox.png";
 class Main extends React.Component {
   render() {
     return (
@@ -92,68 +94,124 @@ class Main extends React.Component {
           {/* My works */}
           <section className="my-work" id="work">
             <h2 className="section-title">My works</h2>
-            <p className="section-subtitle-work">
-              A selection of my range of work
-            </p>
+            <p className="section-subtitle-work">A selection of my projects</p>
             <div className="portfolio">
-              <div className="card">
-                <a
-                  href="https://owebiwan.github.io/Legate-Quotes/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="card-link"
-                >
-                  <img
-                    src={legate}
-                    alt="random quote generator app"
-                    className="card-img"
-                  />
-                  <div className="card-text">
-                    <h4>Quote Legate</h4>
-                    <p>A war based quote app with interactive features</p>
-                  </div>
-                </a>
-              </div>
-              <div className="card">
-                <a
-                  href="https://owebiwan.github.io/Cool-Markup/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="card-link"
-                >
-                  <img
-                    src={markup}
-                    alt="random quote generator app"
-                    className="card-img"
-                  />
+              <div className="row1">
+                <div className="card" id="1">
+                  <a
+                    href="https://owebiwan.github.io/Legate-Quotes/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="card-link"
+                  >
+                    <img
+                      src={legate}
+                      alt="random quote generator app"
+                      className="card-img"
+                    />
+                    <div className="card-text">
+                      <h4>Quote Legate</h4>
+                      <p>A war based quote app with interactive features</p>
+                    </div>
+                  </a>
+                </div>
+                <div className="card" id="2">
+                  <a
+                    href="https://owebiwan.github.io/Cool-Markup/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="card-link"
+                  >
+                    <img
+                      src={markup}
+                      alt="random quote generator app"
+                      className="card-img"
+                    />
 
-                  <div className="card-text">
-                    <h4>Markup</h4>
-                    <p>A markdown previewing app to check your syntax</p>
-                  </div>
-                </a>
-              </div>
-              <div className="card">
-                <a
-                  href="https://petsclique.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="card-link"
-                >
-                  <img
-                    src={petsclique}
-                    alt="random quote generator app"
-                    className="card-img"
-                  />
+                    <div className="card-text">
+                      <h4>Markup</h4>
+                      <p>A markdown previewing app to check your syntax</p>
+                    </div>
+                  </a>
+                </div>
+                <div className="card" id="3">
+                  <a
+                    href="https://petsclique.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="card-link"
+                  >
+                    <img
+                      src={petsclique}
+                      alt="random quote generator app"
+                      className="card-img"
+                    />
 
-                  <div className="card-text">
-                    <h4>Petclique</h4>
-                    <p>
-                      An E-commerce website built with shopify technologies and
-                      CSS
-                    </p>
-                  </div>
-                </a>
+                    <div className="card-text">
+                      <h4>Petclique</h4>
+                      <p>
+                        An E-commerce website built with shopify technologies
+                        and CSS
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="row2">
+                <div className="card" id="4">
+                  <a
+                    href="https://owebiwan.github.io/neumorpher/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="card-link"
+                  >
+                    <img src={calc} alt="calculator app" className="card-img" />
+
+                    <div className="card-text">
+                      <h4>Calculator</h4>
+                      <p>A neumorphic calculator app</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div className="card" id="5">
+                  <a
+                    href="https://owebiwan.github.io/pomodoro/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="card-link"
+                  >
+                    <img
+                      src={pomodoro}
+                      alt="random quote generator app"
+                      className="card-img"
+                    />
+
+                    <div className="card-text">
+                      <h4>Pomodoro Clock</h4>
+                      <p>A time management app</p>
+                    </div>
+                  </a>
+                </div>
+                <div className="card" id="6">
+                  <a
+                    href="https://owebiwan.github.io/beatbox/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="card-link"
+                  >
+                    <img
+                      src={beatbox}
+                      alt="random quote generator app"
+                      className="card-img"
+                    />
+
+                    <div className="card-text">
+                      <h4>Beatbox</h4>
+                      <p>A drum emulating app</p>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </section>

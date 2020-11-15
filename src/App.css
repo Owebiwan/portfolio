@@ -377,8 +377,17 @@ li:last-child {
 .portfolio {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .card {
   position: relative;
@@ -390,11 +399,20 @@ li:last-child {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .portfolio {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+  .row1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row2 {
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
   }
   .card {
     width: 70vw;
